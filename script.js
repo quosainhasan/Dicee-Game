@@ -13,18 +13,12 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 
-
-function dicee(player1, player2){
-    if(player1 === player2){
-        document.querySelector("h5").textContent = "⚔ When the dust has settled and the cheers have faded, we're left with a hard-earned tie."
-        console.log("You both got same number!");
-    };
-    if(player1 > player2){
-        document.querySelector("h5").textContent = "All Hail the Champion Player 1 🎉🎉";
-    }
-    else{
-        document.querySelector("h5").textContent = "All Hail the Champion Player 2 🎉🎉";
-    }
-};
-
-dicee(randomNumber1, randomNumber2);
+if(randomNumber1 > randomNumber2){
+    document.querySelector("h5").textContent = "All Hail the Champion Player 1 🎉🎉"
+}
+else if (randomNumber2 > randomNumber1){
+    document.querySelector("h5").textContent = "All Hail the Champion Player 2 🎉🎉"
+}
+else{
+    document.querySelector("h5").textContent = "⚔ When the dust has settled and the cheers have faded, we're left with a hard-earned tie."
+}
