@@ -8,8 +8,10 @@ image1.setAttribute("src", randomDiceImage);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-console.log("Player 1: " + randomNumber1);
-console.log("Player 2: " + randomNumber2);
+var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+
+document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
+
 
 
 function dicee(player1, player2){
@@ -18,10 +20,10 @@ function dicee(player1, player2){
         console.log("You both got same number!");
     };
     if(player1 > player2){
-        document.querySelector("h5").textContent = "All Hail the Champion " + p1 + " 🎉🎉";
+        document.querySelector("h5").textContent = "All Hail the Champion Player 1 🎉🎉";
     }
     else{
-        document.querySelector("h5").textContent = "All Hail the Champion " + p2 + " 🎉🎉";
+        document.querySelector("h5").textContent = "All Hail the Champion Player 2 🎉🎉";
     }
 };
 
