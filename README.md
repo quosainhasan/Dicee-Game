@@ -1,11 +1,8 @@
 # Dice Game
-Welcome to the Dice Game! This is a simple web-based game where players can roll two dice by refreshing the page. The game displays a random image of a dice for each roll. This game does not keep track of points or scores - it is simply a fun way to pass the time and enjoy a game of chance.
+Welcome to the Dice Game! This is a simple web-based game where players can roll two dice by refreshing the page. The game displays a random image of a dice for each roll. This game does not require any player names or login - simply click on the link [Dicee 🎲](https://quosainhasan.github.io/Dicee-Game/) and start refreshing the page to play.
 
 # How to Play
-To play the game, simply open the index.html file in your web browser. When the page loads, you will be prompted to enter the names of the players. Once you have entered the player names, you can start playing by refreshing the page.
-
-Each time you refresh the page, the game will randomly generate two numbers between 1 and 6. These numbers correspond to the pips on the two dice. The game will then display two images of dice that correspond to the numbers generated.
-
+To play the game, click on the link [Dicee 🎲](https://quosainhasan.github.io/Dicee-Game/) to open the game in your web browser. When the page loads, you can start playing by refreshing the page. Each time you refresh the page, the game will randomly generate two numbers between 1 and 6. These numbers correspond to the pips on the two dice. The game will then display two images of dice that correspond to the numbers generated.
 # Game Rules
 This game does not have any specific rules or objectives, as it is just a simple dice rolling game. However, you can make up your own rules or challenges to add some fun and competition to the game. For example, you could try to roll a certain combination of numbers (such as two sixes), or you could award points to the player who rolls the highest total number on the two dice.
 
