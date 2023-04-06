@@ -57,14 +57,14 @@ function image2(number2){
 
 function dicee(player1, player2){
     if(player1 === player2){
-        document.querySelector("h5").textContent = "When the dust has settled and the cheers have faded, we're left with a hard-earned tie."
+        document.querySelector("h5").textContent = "⚔ When the dust has settled and the cheers have faded, we're left with a hard-earned tie."
         console.log("You both got same number!");
     };
     if(player1 > player2){
-        document.querySelector("h5").textContent = "All Hail the Champion " + p1;
+        document.querySelector("h5").textContent = "All Hail the Champion " + p1 + " 🎉🎉";
     }
     else{
-        document.querySelector("h5").textContent = "All Hail the Champion " + p2;
+        document.querySelector("h5").textContent = "All Hail the Champion " + p2 + " 🎉🎉";
     }
 };
 
